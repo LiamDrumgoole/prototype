@@ -11,6 +11,11 @@ namespace Temp
         public Player playerBools;
         private bool inTrigger;
 
+        private void Awake()
+        {
+            playerBools = FindObjectOfType<Player>();
+        }
+
         // Update is called once per frame
         void Update()
         {

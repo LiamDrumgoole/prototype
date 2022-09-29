@@ -23,7 +23,7 @@ namespace Temp
             float horizontalInput = Input.GetAxis("Horizontal");
             float verticalInput = Input.GetAxis("Vertical");
 
-            Vector3 direction = new Vector3(horizontalInput, 0f, verticalInput);
+            Vector3 direction = new Vector3(-horizontalInput, 0f, -verticalInput);
             transform.Translate(direction * moveSpeed * Time.deltaTime);
 
             if (hasWatering)
