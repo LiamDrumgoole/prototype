@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5993186589156828964}
   m_Layer: 0
   m_Name: Dirt Patch
-  m_TagString: Untagged
+  m_TagString: CantPlace
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,7 +28,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5993186589156828965}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.705, y: 2.29, z: 3.84}
   m_LocalScale: {x: 0.9773341, y: 1, z: 1}
   m_Children: []
@@ -123,4 +123,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plant: {fileID: 4907798935124842452, guid: be90976dd97681a4ebbb2488608bd930, type: 3}
-  playerBools: {fileID: 0}
+  playerBools: {fileID: 3017951457260215799, guid: 92fe77f0eb83c8c43b79ce6f459e0f21, type: 3}
